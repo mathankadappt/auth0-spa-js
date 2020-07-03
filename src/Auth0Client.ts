@@ -421,7 +421,7 @@ export default class Auth0Client {
     );
 
     const transaction = this.transactionManager.get(state);
-
+    console.log("handleRedirectCallback => transactionManager ::: ===> ", transaction);
     if (!transaction) {
       throw new Error('Invalid state');
     }
