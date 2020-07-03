@@ -27,7 +27,7 @@
     "prepack": "npm run build && npm run test && node ./scripts/prepack",
     "release": "node ./scripts/release",
     "release:clean": "node ./scripts/cleanup",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
     "publish:cdn": "ccu --trace"
   },
   "devDependencies": {
